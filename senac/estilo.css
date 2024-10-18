@@ -11,17 +11,28 @@
 
 .header{
     grid-column: span   12;
-    grid-row:span 2 ;
-    background-color:antiquewhite;
+    grid-row:span 4 ;
+    
+    
 }
-.nav{
+.nav ul{
     grid-column:span 12 ;
     grid-row:span 2 ;
-    background-color:green;
+    color: blue;
+    display:flex;
+    justify-content: space-between;
+    font-size:3px;
+    list-style: none;
+    margin-top: 10px;
+    padding: 15px;
+  
+}
+a{
+    text-decoration: none;
 }
 .main{
-    grid-column:span 6 ;
-    grid-row:span 3 ;
+    grid-column:span 12 ;
+    grid-row:span 14 ;
     background-color: aqua;
 }
 .section{
