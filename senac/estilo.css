@@ -6,43 +6,139 @@
 .container{
     display: grid;
     grid-template-columns:repeat(12,1fr) ;
+
     gap:5px ;
+    height: 100vh;
 }
 
 .header{
     grid-column: span   12;
-    grid-row:span 4 ;
-    
+    grid-row:span 3 ;
+    position: sticky;
+    top: 0;  
     
 }
 .nav ul{
     grid-column:span 12 ;
-    grid-row:span 2 ;
-    color: blue;
+    grid-row:span 1 ;
     display:flex;
     justify-content: space-between;
-    font-size:3px;
+    font-size:10px;
     list-style: none;
     margin-top: 10px;
-    padding: 15px;
-  
+    padding:30px;
+ 
 }
+
 a{
     text-decoration: none;
+    color: blue;
+}
+.nav a:hover,
+.nav a:focus{
+  color: orange;  
 }
 .main{
     grid-column:span 12 ;
-    grid-row:span 14 ;
-    background-color: aqua;
+    grid-row:span 6 ;
+    background-color:white;
 }
 img{
-    width: 100%;
-    height:100% ;
+    width: 80%;
+    margin:auto;
+    padding: 20px;
 }
 .section{
-    grid-column:span 3 ;
-    grid-row:span 3 ;
-    background-color: aqua;
+    grid-column:span 12 ;
+    grid-row:span 5 ;
+    
+}
+.section-card{
+    grid-column: span 1;
+    background-color:green;
+    padding: 10px;
+}
+.section-card1{
+    background-color:orange;
+    border: orange;
+    border-radius: 2px;
+    margin-left: 10px;
+    color: white;
+    padding: 2px;
+}
+.section-card2{
+    background-color:orange;
+    border: orange;
+    border-radius: 2px;
+    margin-left: 10px;
+    color: white;
+    
+}
+.section-card3{
+    background-color:rgb(193, 52, 218);
+    border:blueviolet;
+    border-radius: 2px;
+    margin-left: 10px;
+    color: white;
+    
+}
+.section-card4{
+    background-color:orangered;
+    border:orangered;
+    border-radius: 2px;
+    margin-left: 10px;
+    color: white;
+    
+}
+.section-card5{
+    background-color:orangered;
+    border:orangered;
+    border-radius: 2px;
+    margin-left: 10px;
+    color: white;
+    
+}
+.section-card6{
+    background-color:rgba(0, 98, 255, 0.849);
+    border:rgba(0, 98, 255, 0.849);
+    border-radius: 2px;
+    margin-left: 10px;
+    color: white;
+    
+}
+.section-card7{
+    background-color:rgba(25, 0, 255, 0.76);
+    border:rgba(25, 0, 255, 0.76);
+    border-radius: 2px;
+    margin-left: 10px;
+    color: white;
+    
+}
+.section-card8{
+    background-color:rgba(0, 255, 21, 0.651);
+    border:rgba(0, 255, 21, 0.651);
+    border-radius: 2px;
+    margin-left: 10px;
+    color: white;
+    
+}
+.section-card9{
+    background-color:rgba(0, 187, 255, 0.779);
+    border:rgba(0, 255, 21, 0.651);
+    border-radius: 2px;
+    margin-left: 10px;
+    color: white;   
+}
+.section-card10{
+    background-color:rgba(255, 0, 132, 0.786);
+    border:rgba(0, 255, 21, 0.651);
+    border-radius: 2px;
+    margin-left: 10px;
+    color: white;   
+}
+h3{
+    text-align: center;
+    color: rgba(169, 169, 169, 0.799);
 }
 .section1{
     grid-column:span 3 ;
